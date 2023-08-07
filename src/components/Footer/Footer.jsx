@@ -7,26 +7,26 @@ import "../../styles/footer.css";
 const quickLinks = [
   {
     path: "/about",
-    display: "About",
+    display: "About Us",
   },
-
+  {
+    path: "/cars",
+    display: "Terms & Conditions",
+  },
   {
     path: "#",
     display: "Privacy Policy",
   },
 
-  {
-    path: "/cars",
-    display: "Car Listing",
-  },
+  
   {
     path: "/blogs",
-    display: "Blog",
+    display: "How It Works",
   },
 
   {
     path: "/contact",
-    display: "Contact",
+    display: "FAQs",
   },
 ];
 
@@ -43,7 +43,7 @@ const Footer = () => {
                 <Link to="/home" className=" d-flex align-items-center gap-2">
                   <i class="ri-car-line"></i>
                   <span>
-                    Rent Car <br /> Service
+                    Rent Car <br /> 
                   </span>
                 </Link>
               </h1>
@@ -58,7 +58,7 @@ const Footer = () => {
 
           <Col lg="2" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title">Quick Links</h5>
+              <h5 className="footer__link-title">Learn More</h5>
               <ListGroup>
                 {quickLinks.map((item, index) => (
                   <ListGroupItem key={index} className="p-0 mt-3 quick__link">
@@ -71,16 +71,15 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title mb-4">Head Office</h5>
-              <p className="office__info">123 Zindabazar, Sylhet, Bangladesh</p>
-              <p className="office__info">Phone: +0995345875365</p>
+              <h5 className="footer__link-title mb-4">PRODUCTS</h5>
+              <p className="office__info">Vehicles</p>
+              <p className="office__info">Venues</p>
 
-              <p className="office__info">Email: muhib5532@gmail.com</p>
+              <p className="office__info">Weddings</p>
 
-              <p className="office__info">Office Time: 10am - 7pm</p>
+              <p className="office__info">Sports</p>
             </div>
           </Col>
-
           <Col lg="3" md="4" sm="12">
             <div className="mb-4">
               <h5 className="footer__link-title">Newsletter</h5>
@@ -97,8 +96,7 @@ const Footer = () => {
           <Col lg="12">
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
-                <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-                Muhibur Rahman. All rights reserved.
+                <i class="ri-copyright-line"></i>Renting {year} - All rights reserved
               </p>
             </div>
           </Col>

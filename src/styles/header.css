@@ -1,6 +1,6 @@
 .header__top {
   padding: 10px 0px;
-  background: #000d6b;
+  background: #591fa5;
   color: #fff;
 }
 
@@ -41,7 +41,11 @@
 /* ============ header middle style =========== */
 
 .header__middle {
+  background: rgb(9,114,121);
+  background: rgb(9,114,121);
+  background: linear-gradient(90deg, rgba(9,114,121,1) 13%, rgba(9,114,121,1) 20%, rgba(9,114,121,1) 25%, rgba(9,110,121,1) 29%, rgba(9,106,121,1) 33%, rgba(9,103,121,1) 37%, rgba(9,97,121,1) 44%, rgba(9,87,121,1) 48%, rgba(9,84,121,1) 54%, rgba(26,80,128,1) 59%, rgba(41,69,134,1) 64%, rgba(56,64,140,1) 69%, rgba(62,61,142,1) 72%, rgba(74,54,147,1) 75%, rgba(89,49,151,1) 79%, rgba(78,40,158,1) 84%, rgba(88,40,158,1) 93%);
   padding: 20px 0px;
+  margin: 1px;
 }
 
 .logo h1 a span {
@@ -103,7 +107,7 @@
 
 .main__navbar {
   padding: 15px 0px;
-  background: #000d6b;
+  background: #591fa5
 }
 
 .mobile__menu i {
